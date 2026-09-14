@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+results/.matplotlib-cache/
+
+.DS_Store
+~$*.docx

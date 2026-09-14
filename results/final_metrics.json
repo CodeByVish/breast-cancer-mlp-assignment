@@ -1,0 +1,53 @@
+{
+  "split": {
+    "seed": 42,
+    "development": 455,
+    "test": 114,
+    "development_class_counts_B_M": [
+      285,
+      170
+    ],
+    "test_class_counts_B_M": [
+      72,
+      42
+    ]
+  },
+  "selection": {
+    "model": "MLP-2 (16-8)",
+    "final_epochs": 44,
+    "development_mlp_eer": 0.02404540763673892,
+    "development_logistic_eer": 0.025799793601651203
+  },
+  "mlp": {
+    "auc": 0.9937169312169312,
+    "mean_error_rate": 0.018849206349206348,
+    "fpr": 0.013888888888888888,
+    "fnr": 0.023809523809523808,
+    "threshold": 0.3790200352668762,
+    "accuracy": 0.9824561403508771,
+    "sensitivity": 0.9761904761904762,
+    "specificity": 0.9861111111111112,
+    "precision": 0.9761904761904762,
+    "f1": 0.9761904761904762,
+    "tn": 71,
+    "fp": 1,
+    "fn": 1,
+    "tp": 41
+  },
+  "logistic_regression": {
+    "auc": 0.996031746031746,
+    "mean_error_rate": 0.018849206349206348,
+    "fpr": 0.013888888888888888,
+    "fnr": 0.023809523809523808,
+    "threshold": 0.3025059780244165,
+    "accuracy": 0.9824561403508771,
+    "sensitivity": 0.9761904761904762,
+    "specificity": 0.9861111111111112,
+    "precision": 0.9761904761904762,
+    "f1": 0.9761904761904762,
+    "tn": 71,
+    "fp": 1,
+    "fn": 1,
+    "tp": 41
+  }
+}
