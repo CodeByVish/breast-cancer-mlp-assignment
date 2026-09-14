@@ -2,8 +2,7 @@
 
 The main model is an MLP; logistic regression is a comparison baseline. We reserve a stratified 20% test set and perform five-fold cross-validation only within the 80% development set. Architecture, probability thresholds, and MLP training duration are selected before final test evaluation.
 
-- `Assignment_Report.docx`: Word document for submission.
-- `REPORT.md`: editable source of the report, with explanations, code snippets, and results.
+- `REPORT.md`: repository summary with explanations, code snippets, and results. The final Word submission is maintained separately.
 - `breast_cancer_mlp.ipynb`: self-contained notebook; run all cells locally or in Colab.
 - `experiment.py`: equivalent Python experiment.
 - `data/`: original UCI dataset and feature documentation.
